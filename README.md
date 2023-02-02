@@ -20,14 +20,16 @@ The following example uses XAML to implement the appearance of a window that con
 
 
 The following figure shows the user interface (UI) that is defined by the XAML in the previous example:
+![markup-window-button](https://user-images.githubusercontent.com/74794315/216296423-e9f1c924-5686-4a0f-aa25-2095052e3c07.png)
 
-![markup-window-button.png]({{site.baseurl}}/_posts/markup-window-button.png)
+
 
 
 ## Code Behind
 The main behavior of an application is to implement the functionality that responds to user interactions. For example clicking a menu or button, and calling business logic and data access logic in response. In WPF, this behavior is implemented in code that is associated with markup. This type of code is known as code-behind. The following example shows the updated markup from the previous example and the code-behind:
 
-![markup-window-button-clicked.png]({{site.baseurl}}/_posts/markup-window-button-clicked.png)
+![markup-window-button-clicked](https://user-images.githubusercontent.com/74794315/216296464-4fa35127-c957-4504-b577-e140aea72e52.png)
+
 
 
 That's enough for introduction lets deep dive into our main task that means creating an application in  WPF using C# 
@@ -43,7 +45,8 @@ _Hope you are along  with me_
 
 2. Select Create a new project.
 
-![vs-create-new-project.png](./_posts/vs-create-new-project.png)
+![vs-create-new-project](https://user-images.githubusercontent.com/74794315/216296595-a695dbbf-b7fe-4c0b-ae25-9e7922f36ebb.png)
+
 
 3.In the Search for templates box, type wpf, and then press Enter.
 
@@ -51,7 +54,8 @@ _Hope you are along  with me_
 
 5. In the templates list, select WPF Application and then select Next.
 
-![vs-template-search.png]({{site.baseurl}}/_posts/vs-template-search.png)
+![vs-template-search](https://user-images.githubusercontent.com/74794315/216296643-677e397c-9058-4d96-b403-c98591a915c9.png)
+
 
 6.In the Configure your new project window, do the following:
 
@@ -62,8 +66,7 @@ d.Select the Next button.
 
 ### Important parts of Visual Studio
 
-![vs-main-window.png]({{site.baseurl}}/_posts/vs-main-window.png)
-
+![vs-main-window](https://user-images.githubusercontent.com/74794315/216296716-8ea75006-ffad-447f-bd4b-05479de71450.png)
 
 1. Solution Explorer
 
@@ -89,7 +92,8 @@ This is the XAML code editor for a XAML document. The XAML code editor is a way 
 
 ## XAML (MainWindow.xaml)
 
-![Screenshot (651).png]({{site.baseurl}}/_posts/Screenshot (651).png)
+![Screenshot (651)](https://user-images.githubusercontent.com/74794315/216296861-99a2bd58-74b1-4fa0-a6e2-0f4d2b76359e.png)
+
 
 
 Let's break down this XAML code to understand it better. XAML is simply XML that can be processed by the compilers that WPF uses. It describes the WPF UI and interacts with .NET code. To understand XAML, you should, at a minimum, be familiar with the basics of XML.
@@ -128,3 +132,23 @@ The Width and Height property represent the width and the height of the control.
 **_That's all we need in our XAML now head over to Code Behind for implementing the Click event handlers_**
 
 ## Code Behind (MainWindow.xaml.c#)
+
+![Screenshot (654)](https://user-images.githubusercontent.com/74794315/216297859-56bf2da7-cbb9-4366-aaba-de36dcd7db11.png)
+![Screenshot (653)](https://user-images.githubusercontent.com/74794315/216297903-ac994008-af1b-4bb7-8092-d63a087f93db.png)
+
+
+### 1. InitializeComponent() 
+This method in Visual Studio.is automatically created and managed by Windows Forms designer and it defines everything you see on the form. Everything done on the form in VS.NET using designers generates code.
+
+### 2. Object Sender and EventHandler
+In the general object, the sender is one of the parameters in the C# language, and also, it is used to create the instance of the object, which is raised by the specific events on the application. That event is handled using the Event handler mechanism that is mostly handled and responsible for creating the objects.
+
+## Output Window
+Now all set just click *Build* Button and output will be presented on separate window
+![Screenshot (655)](https://user-images.githubusercontent.com/74794315/216298235-8e848c3b-63fe-4f87-9f50-33b571964cb7.png)
+![Screenshot (656)](https://user-images.githubusercontent.com/74794315/216298258-12667446-264d-4a58-bc44-a70f06eb9af5.png)
+![Screenshot (657)](https://user-images.githubusercontent.com/74794315/216298293-8d07f946-46dc-4139-be57-132d215ad6e5.png)
+
+
+
+Created with ❤ by Jobanpreet Singh

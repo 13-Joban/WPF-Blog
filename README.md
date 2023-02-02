@@ -106,7 +106,7 @@ A Grid is a very powerful and useful Layout in WPF. It enables you to arrange ch
 
 The Rectangle object represents a rectangle shape and draws a rectangle with the given height and width. The Width and Height properties of the Rectangle class represent the width and height of a rectangle. The Fill property fills the interior of a rectangle. The Stroke property sets the color and StrokeThickness represents the width of the outer line of a rectangle.
 
-****Note : We will be using Ellipse object for Circle and Polygon object for Triangle
+**Note : We will be using Ellipse object for Circle and Polygon object for Triangle**
 
 ### 3. Ellipse
 
@@ -148,6 +148,9 @@ Now all set just click *Build* Button and output will be presented on separate w
 ![Screenshot (655)](https://user-images.githubusercontent.com/74794315/216298235-8e848c3b-63fe-4f87-9f50-33b571964cb7.png)
 ![Screenshot (656)](https://user-images.githubusercontent.com/74794315/216298258-12667446-264d-4a58-bc44-a70f06eb9af5.png)
 ![Screenshot (657)](https://user-images.githubusercontent.com/74794315/216298293-8d07f946-46dc-4139-be57-132d215ad6e5.png)
+
+
+
 
 
 

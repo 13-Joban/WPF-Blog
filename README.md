@@ -16,7 +16,8 @@ WPF lets you develop an application using both markup and code-behind, an experi
 XAML is an XML-based markup language that implements an application's appearance declaratively. You typically use it to define windows, dialog boxes, pages, and user controls, and to fill them with controls, shapes, and graphics.
 
 The following example uses XAML to implement the appearance of a window that contains a single button:
-![beautify-picture.png]({{site.baseurl}}/images/beautify-picture.png)
+![beautify-picture (1)](https://user-images.githubusercontent.com/74794315/216296218-014acfd2-4bb2-484a-8a19-fdb3c389bff4.png)
+
 
 The following figure shows the user interface (UI) that is defined by the XAML in the previous example:
 

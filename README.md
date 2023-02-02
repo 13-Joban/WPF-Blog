@@ -151,4 +151,6 @@ Now all set just click *Build* Button and output will be presented on separate w
 
 
 
+Hurray 🥳 we built an application stay tuned for more.
+
 Created with ❤ by Jobanpreet Singh

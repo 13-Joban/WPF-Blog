@@ -61,8 +61,8 @@ _Hope you are along  with me_
 
   a. In the Project name box, enter Names.
   b. Select the Place solution and project in the same directory check box.
-  c.Optionally, choose a different Location to save your code.
-  d.Select the Next button.
+  c. Optionally, choose a different Location to save your code.
+  d. Select the Next button.
 
 ### Important parts of Visual Studio
 

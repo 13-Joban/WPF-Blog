@@ -8,9 +8,9 @@ Windows Presentation Foundation (WPF), a UI framework that is resolution-indepen
 ### Markup and code-behind
 WPF lets you develop an application using both markup and code-behind, an experience with which ASP.NET developers should be familiar. You generally use XAML markup to implement the appearance of an application while using managed programming languages (code-behind) to implement its behavior. This separation of appearance and behavior has the following benefits:
 
--Development and maintenance costs are reduced because appearance-specific markup isn't tightly coupled with behavior-specific code.
+ 1. Development and maintenance costs are reduced because appearance-specific markup isn't tightly coupled with behavior-specific code.
 
--Development is more efficient because designers can implement an application's appearance simultaneously with developers who are implementing the application's behavior.
+ 2. Development is more efficient because designers can implement an application's appearance simultaneously with developers who are implementing the application's        behavior.
 
 ## Markup
 XAML is an XML-based markup language that implements an application's appearance declaratively. You typically use it to define windows, dialog boxes, pages, and user controls, and to fill them with controls, shapes, and graphics.

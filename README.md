@@ -56,13 +56,12 @@ _Hope you are along  with me_
 
 ![vs-template-search](https://user-images.githubusercontent.com/74794315/216296643-677e397c-9058-4d96-b403-c98591a915c9.png)
 
-
 6. In the Configure your new project window, do the following:
   
-   -> In the Project name box, enter Names.
-   -> Select the Place solution and project in the same directory check box.
-   -> Optionally, choose a different Location to save your code.
-   -> Select the Next button.
+   - In the Project name box, enter Names.
+   - Select the Place solution and project in the same directory check box.
+   - Optionally, choose a different Location to save your code.
+   - Select the Next button.
 
 ### Important parts of Visual Studio
 

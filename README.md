@@ -48,7 +48,7 @@ _Hope you are along  with me_
 ![vs-create-new-project](https://user-images.githubusercontent.com/74794315/216296595-a695dbbf-b7fe-4c0b-ae25-9e7922f36ebb.png)
 
 
-3.In the Search for templates box, type wpf, and then press Enter.
+3. In the Search for templates box, type wpf, and then press Enter.
 
 4. In the code language dropdown, choose C# or Visual Basic.
 
@@ -57,7 +57,7 @@ _Hope you are along  with me_
 ![vs-template-search](https://user-images.githubusercontent.com/74794315/216296643-677e397c-9058-4d96-b403-c98591a915c9.png)
 
 
-6.In the Configure your new project window, do the following:
+6. In the Configure your new project window, do the following:
 
 a. In the Project name box, enter Names.
 b. Select the Place solution and project in the same directory check box.
@@ -68,23 +68,23 @@ d.Select the Next button.
 
 ![vs-main-window](https://user-images.githubusercontent.com/74794315/216296716-8ea75006-ffad-447f-bd4b-05479de71450.png)
 
-Solution Explorer
+**Solution Explorer
 
 All of your project files, code, windows, resources, will appear in this pane.
 
-Properties
+**Properties
 
 This pane shows property settings you can configure based on the item selected. For example, if you select an item from Solution Explorer, you'll see property settings related to the file. If you select an object in the Designer, you'll see settings for that item.
 
-Toolbox
+**Toolbox
 
 The toolbox contains all of the controls you can add to a form. To add a control to the current form, double-click a control or drag-and-drop the control.
 
-XAML designer
+**XAML designer
 
 This is the designer for a XAML document. It's interactive and you can drag-and-drop objects from the Toolbox. By selecting and moving items in the designer, you can visually compose the user interface (UI) for your app.
 
-XAML code editor
+**XAML code editor
 
 This is the XAML code editor for a XAML document. The XAML code editor is a way to craft your UI by hand without a designer. The designer may infer the values of properties on a control when the control is added in the designer. The XAML code editor gives you a lot more control.
 
